@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Amazon_Shopping_site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    .mySlides {display:none;}
+    </style>
+  </head>
+  <body bgcolor="">
+    <table class="na"cellspacing="20" >
+      <tr>
+        <th><a href="https://www.amazon.in/"><img src="download.png" alt="" height="70" width="100"></a></th>
+        <td colspan="5"><textarea name="name" rows="2" cols="80"></textarea><button type="button" size="40"></button></td>
+        <td>Free Fast Delivery</td>
+      </tr>
+      <tr>
+        <td>delivery to guntur</td>
+        <td color="gray"><select class="shop" name="">
+          <option value="">Shop By Category</option>
+          <option value="">WOMEN</option>
+          <option value="">MEN</option>
+          <option value="">GROCERY</option>
+        </select></td>
+        <td>Buy Again</td>
+        <td>Your Amazon.in</td>
+        <td>Todays Deal</td>
+        <td>sign in <br><a href="login.html">YOUR ORDERS</a></td>
+        <td>YOUR CART</td>
+      </tr>
+    </table>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides" src="64866.jpg" style="width:100%">
+      <img class="mySlides" src="ama.jpg" style="width:100%">
+      <img class="mySlides" src="download.png" style="width:100%">
+    </div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <div class="">
+      <h5 align="center">ORDER FOOD USING AMAZON PAY</h5>
+      <p>You can now use your Amazon account to place food order online. Explore all food offers from various food ordering app and websites & get great discounts using Amazon Pay. No need of any coupons codes & vouchers. Experience one-click purchase using Amazon Pay balance or access your saved cards to save time & get 100% buyer protection against all your orders. Amazon Pay is now accepted on all popular food ordering apps & websites like Faasos, Freshmenu, Swiggy, Domino's & more
+      </p>
+
+    </div>
+  </body>
+</html>
